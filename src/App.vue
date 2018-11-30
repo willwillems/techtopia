@@ -85,7 +85,7 @@ ul {
   grid-template-columns: 90px repeat(9, 1fr) 90px;
   grid-template-rows: 70px 180px 140px 60px 170px 80px;
   grid-column-gap: 20px;
-  grid-template-areas: 
+  grid-template-areas:
     ".              .             .             .             header-middle header-middle .             .             .             .             .             "
     ".              header-left   header-left   .             header-middle header-middle .             .             header-right  header-right  .             "
     "main-center    main-center   main-center   main-center   main-center   main-center   main-center   main-center   main-center   main-center   main-center   "
@@ -96,7 +96,7 @@ ul {
     grid-template-columns: 20px repeat(1, 1fr) 20px;
     grid-template-rows: 70px 180px 140px 60px 170px 140px;
     grid-column-gap: 20px;
-    grid-template-areas: 
+    grid-template-areas:
       ".              header-middle .             "
       ".              header-right  .             "
       "main-center    main-center   main-center   "
@@ -176,7 +176,7 @@ ul {
   }
   &__body {
     font-size: 0.8rem;
-    line-height: 1.8em; 
+    line-height: 1.8em;
     opacity: 0.6;
   }
 }
@@ -188,7 +188,7 @@ ul {
   &__body {
     font-family: "Cousine";
     font-size: 0.8rem;
-    line-height: 1.5em; 
+    line-height: 1.5em;
     opacity: 0.6;
   }
 }
