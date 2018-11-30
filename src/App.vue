@@ -71,7 +71,7 @@ ul {
 }
 
 #app {
-  font-family: 'Helvetica Neue', system, Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
