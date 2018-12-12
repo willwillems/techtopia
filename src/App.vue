@@ -2,7 +2,7 @@
   <div id="app" class="grid">
     .grid__vertical-spacer
     .grid__button-section
-      button.button.button--primairy Listen to latest
+      button.button.button--primairy( @click="playLatest" ) Listen to latest
       br
       div
         span(style="margin: 0 15px;")
@@ -11,8 +11,8 @@
     .grid__banner.main-banner
       h1.main-banner__title 51 % CORRECT
     .grid__ctas
-      button.button listen now
-      button.button download latest
+      button.button( @click="playLatest" ) listen now
+      button.button( @click="playLatest" ) download latest
     .grid__about.about-section
       h2.about-section__title About
       p.about-section__body Techtopia is a show that zooms in on the interaction of the digital and the analog. In a more concrete manner this means that we take a look at something and the influence technology has on it.
@@ -43,6 +43,11 @@ export default {
         window.navigator.language,
         `notrack: ${window.navigator.doNotTrack}`
       ]
+    }
+  },
+  methods: {
+    playLatest () {
+      window.location = "https://soundcloud.com/user-153014825/e1-news"
     }
   }
 }
@@ -186,7 +191,7 @@ ul {
 
   }
   &__body {
-    font-family: "Cousine", sans-serif; // need to include font
+    font-family: "Cousine", monospace, sans-serif; // need to include font
     font-size: 0.8rem;
     line-height: 1.5em;
     opacity: 0.6;
