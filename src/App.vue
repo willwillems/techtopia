@@ -9,7 +9,7 @@
           b More
         button.button.button--icon ▼
     .grid__banner.main-banner
-      h1.main-banner__title TECHTOPIA
+      h1.main-banner__title 51 % CORRECT
     .grid__ctas
       button.button listen now
       button.button download latest
@@ -186,7 +186,7 @@ ul {
 
   }
   &__body {
-    font-family: "Cousine";
+    font-family: "Cousine", sans-serif; // need to include font
     font-size: 0.8rem;
     line-height: 1.5em;
     opacity: 0.6;
