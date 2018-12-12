@@ -152,9 +152,10 @@ ul {
   overflow-x: hidden;
 
   &__title {
-    margin: 0;
+    margin: 0 20px;
     font-size: 8rem;
     font-stretch: normal;
+    white-space: nowrap;
 
     @media (max-width: $sm-break) {
       animation-name: marquee;
