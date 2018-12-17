@@ -15,7 +15,7 @@
       button.button( @click="playLatest" ) download latest
     .grid__about.about-section
       h2.about-section__title About
-      p.about-section__body Techtopia is a show that zooms in on the interaction of the digital and the analog. In a more concrete manner this means that we take a look at something and the influence technology has on it.
+      p.about-section__body 51 % correct is a show that zooms in on the interaction of the digital and the analog. In a more concrete manner this means that we take a look at something and the influence technology has on it.
     .grid__userdata.user-data-section
       h2.user-data-section__title USERDATA:
       ul.user-data-section__body
