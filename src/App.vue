@@ -88,7 +88,7 @@ ul {
 .grid {
   display: grid;
   grid-template-columns: 90px repeat(9, 1fr) 90px;
-  grid-template-rows: 70px 180px 140px 60px 170px 80px;
+  grid-template-rows: 80px 220px 140px 60px 220px 80px;
   grid-column-gap: 20px;
   grid-template-areas:
     ".              .             .             .             header-middle header-middle .             .             .             .             .             "
