@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     playLatest () {
-      window.location = "https://soundcloud.com/user-153014825/e1-news"
+      return ;
     }
   }
 }
